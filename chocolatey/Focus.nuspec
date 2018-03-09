@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Focus</id>
+    <version>0.9</version>
+    <title>Focus</title>
+    <authors>Tim van Wijk</authors>
+    <owners>Tim van Wijk</owners>
+	<licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/timvw74/Focus</projectUrl>
+    <!-- <iconUrl></iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>   
+    <description>Focus is a small app that keeps your computer awake.</description> 
+    <summary>Focus keeps your computer awake by sending key presses every so often.</summary>
+    <tags>sleep powersave awake</tags>    
+  </metadata>
+  <files>
+      <file src="..\Focus\bin\Release\*.exe" target="tools" />
+      <file src="..\Focus\bin\Release\*.config" target="tools" />
+      <file src="..\LICENSE.txt" target="tools" />
+      <file src="VERIFICATION.txt" target="tools" />
+	  
+    </files>
+</package>
